@@ -1,0 +1,85 @@
+/*
+Author: Prashna Sapkota
+Date: 10-12-2025
+File Name: styles.css
+*/
+
+/* CSS reset */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+/* Device visibility */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: block;
+}
+
+/* Main content */
+main {
+    clear: left;
+    background-color: #dcd
+}
